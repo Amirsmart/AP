@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1587937146 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\main.cpp
+1587994594 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\main.cpp
 	<iostream>
 	"shop.h"
 
-1587937124 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.h
+1587993615 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.h
 	"product.h"
+	"bag.h"
 	<iomanip>
 
 1587935752 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\product.h
@@ -12,6 +13,13 @@
 
 1587934316 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\product.cpp
 
-1587936084 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.cpp
+1587994565 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.cpp
 	"shop.h"
+
+1587994660 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.h
+	<iomanip>
+	<iostream>
+
+1587993177 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.cpp
+	"bag.h"
 

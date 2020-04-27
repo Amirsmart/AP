@@ -5,7 +5,9 @@ using namespace std;
 int main()
 {
     shop shp;
-    shp.printFoodMenu();
-    shp.printMechMenu();
+    shp.bg.printInventory();
+    shp.buyFood();
+    shp.buyMech();
+    shp.bg.printInventory();
     return 0;
 }
