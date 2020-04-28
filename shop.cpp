@@ -2,12 +2,12 @@
 
 
 void shop::initProducts(){
-    prs[0] = product("food" , 12 , 23);
-    prs[1] = product("cake" , 7 , 15);
-    prs[2] = product("drink" , 3 , 6);
-    prs[3] = product("battery" , 0 , 20);
-    prs[4] = product("pin", 0 , 30);
-    prs[5] = product("hammer" , 0 , 200);
+    prs[0] = product("food" , 3000 , 30000);
+    prs[1] = product("cake" , 1000 , 10000);
+    prs[2] = product("drink" , 2000 , 20000);
+    prs[3] = product("battery" , 0 , 20000);
+    prs[4] = product("pin", 0 , 10000);
+    prs[5] = product("hammer" , 0 , 50000);
     numberOfProducts = 6 ;
 }
 
@@ -23,7 +23,7 @@ void shop::printMechMenu(){
     cout<<setw(4)<<prs[i].energy<<'J'<<setw(3)<<" | " <<setw(4)<< prs[i].price<<"$"<<endl;
 }
 
-void shop::buyMech(){
+bag shop::buyMech(bag bg){
     int no , number, price;
     string name ;
     cin>>no;
@@ -61,9 +61,10 @@ void shop::buyMech(){
         }
         else cout<<"you can not buy these goods.\n";
     }
+    return bg;
 }
 
-void shop::buyFood(){
+bag shop::buyFood(bag bg){
     int no , number, price , energy;
     string name ;
     cin>>no;
@@ -107,4 +108,5 @@ void shop::buyFood(){
         }
         else cout<<"you can not buy these goods.\n";
     }
+    return bg;
 }

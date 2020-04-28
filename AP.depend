@@ -1,25 +1,41 @@
 # depslib dependency file v1.0
-1587994594 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\main.cpp
+1588104087 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\main.cpp
 	<iostream>
-	"shop.h"
+	"Game.h"
 
-1587993615 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.h
+1588104890 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.h
 	"product.h"
-	"bag.h"
 	<iomanip>
+	"bag.h"
 
 1587935752 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\product.h
 	<iostream>
 
 1587934316 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\product.cpp
 
-1587994565 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.cpp
+1588104885 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.cpp
 	"shop.h"
 
-1587994660 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.h
+1588105695 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.h
 	<iomanip>
 	<iostream>
 
 1587993177 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.cpp
 	"bag.h"
+
+1588105675 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\spaceship.cpp
+	"SpaceShip.h"
+
+1588105437 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\spaceship.h
+	<iostream>
+	"bag.h"
+
+1588103709 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\game.cpp
+	"bag.h"
+
+1588105665 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\game.h
+	<iomanip>
+	<iostream>
+	"SpaceShip.h"
+	"shop.h"
 

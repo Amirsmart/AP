@@ -1,11 +1,9 @@
 #include "product.h"
-#include "bag.h"
 #include <iomanip>
-
+#include "bag.h"
 
 class shop {
 public:
-    bag bg;
     int numberOfProducts;
     product prs[30];
     shop(){
@@ -14,6 +12,6 @@ public:
     void initProducts();
     void printFoodMenu();
     void printMechMenu();
-    void buyMech();
-    void buyFood();
+    bag buyMech(bag bg);
+    bag buyFood(bag bg);
 };

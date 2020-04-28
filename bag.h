@@ -1,3 +1,5 @@
+#ifndef _bag.h
+#define _bag.h
 #include <iomanip>
 #include <iostream>
 using namespace std ;
@@ -12,3 +14,5 @@ public:
     void printInventory();
     void printMechMenu();
 };
+
+#endif
