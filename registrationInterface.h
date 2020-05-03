@@ -4,7 +4,7 @@ using namespace std;
 class registration;
 class registrationInterface{
 public:
-    registrationInterface(string name,string family,string snn,string job,string gender,string marriage,string date ); 
+    registrationInterface(string name,string family,string snn,string job,string gender,string marriage,string date );
 	bool isValid(string name,string family,string snn,string job,string gender,string marriage,string date){
 		return ptr->isValid(name,family,snn,job,gender,marriage,date);
 	}
@@ -15,7 +15,7 @@ public:
 		return ptr->isAlpha(s);
 	}
 	int getNumber();
-   ~registrationInterface(); 
+   ~registrationInterface();
 private:
-   registration *ptr;   
-}; 
+   registration *ptr;
+};

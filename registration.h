@@ -3,7 +3,7 @@
 class registration{
 	public:
 		registration(string name,string famiy,string snn,string job,string gender,string marriage,string date):birthDate(date){
-			number++;
+			this->number++;
 			this->name=name;
 			this->family=family;
 			this->snn=snn;
@@ -66,5 +66,5 @@ class registration{
 	private:
 		string name,family,snn,job,gender,marriage;
 		date birthDate;
-		static int number;
+		int number;
 };

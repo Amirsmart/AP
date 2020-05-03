@@ -38,11 +38,17 @@
 		<Unit filename="SpaceShip.h" />
 		<Unit filename="bag.cpp" />
 		<Unit filename="bag.h" />
+		<Unit filename="date.cpp" />
+		<Unit filename="date.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="product.cpp" />
 		<Unit filename="product.h" />
+		<Unit filename="registration.h" />
+		<Unit filename="registrationInterface.cpp" />
+		<Unit filename="registrationInterface.h" />
 		<Unit filename="shop.cpp" />
 		<Unit filename="shop.h" />
+		<Unit filename="work.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

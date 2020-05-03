@@ -2,6 +2,7 @@
 #include <iostream>
 #include "SpaceShip.h"
 #include "shop.h"
+#include "registration.h"
 
 using namespace std ;
 
@@ -10,6 +11,7 @@ public:
         bag bg ;
         shop sh ;
         SpaceShip ss ;
+
         Game(){
         }
         void buyMech(){

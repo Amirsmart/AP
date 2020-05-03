@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1588104087 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\main.cpp
+1588514148 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\main.cpp
 	<iostream>
 	"Game.h"
 
@@ -13,10 +13,10 @@
 
 1587934316 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\product.cpp
 
-1588104885 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.cpp
+1588106169 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\shop.cpp
 	"shop.h"
 
-1588105695 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.h
+1588105710 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\bag.h
 	<iomanip>
 	<iostream>
 
@@ -33,9 +33,28 @@
 1588103709 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\game.cpp
 	"bag.h"
 
-1588105665 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\game.h
+1588493079 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\game.h
 	<iomanip>
 	<iostream>
 	"SpaceShip.h"
 	"shop.h"
+	"registration.h"
+
+1588492387 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\date.cpp
+	"date.h"
+
+1588492387 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\date.h
+	<iostream>
+	<sstream>
+
+1588514273 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\registration.h
+	"date.h"
+	<fstream>
+
+1588492387 source:c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\registrationinterface.cpp
+	"registrationInterface.h"
+
+1588514198 c:\users\gold\downloads\compressed\amir\amir\uni\ap\ap\registrationinterface.h
+	"registration.h"
+	<iostream>
 
